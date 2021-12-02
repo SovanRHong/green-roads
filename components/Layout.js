@@ -9,6 +9,7 @@ import {
   Typography,
   createTheme,
   ThemeProvider,
+  CssBaseline,
 } from "@material-ui/core";
 import useStyle from "../utilities/style";
 
@@ -27,6 +28,15 @@ export default function Layout({ children, title, description }) {
         margin: "1rem 0",
       },
     },
+    palette: {
+      type: "light",
+      primary: {
+        main: "#1DB84F",
+      },
+      secondary: {
+        main: "#1DB84F",
+      },
+    },
   });
 
   return (
@@ -36,6 +46,7 @@ export default function Layout({ children, title, description }) {
         {description && <meta name="description" content={description}></meta>}
       </Head>
       <ThemeProvider theme={theme}>
+        <CssBaseline />
         <AppBar position="static" className={classes.navbar}>
           <Toolbar>
             <NextLink href="/" passHref>
