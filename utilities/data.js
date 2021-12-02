@@ -2,7 +2,8 @@ const data = {
   products: [
     {
       id: 1,
-      name: "Free Shirt",
+      name: "Casual Shirt",
+      slug: "casual-shirt",
       category: "Shirts",
       image: "/images/shirt1.jpg",
       price: 70,
@@ -14,7 +15,8 @@ const data = {
     },
     {
       id: 2,
-      name: "Fit Shirt",
+      name: "Fitted Shirt",
+      slug: "fitted-shirt",
       category: "Shirts",
       image: "/images/shirt2.jpg",
       price: 80,
@@ -27,6 +29,7 @@ const data = {
     {
       id: 3,
       name: "Slim Shirt",
+      slug: "slim-shirt",
       category: "Shirts",
       image: "/images/shirt3.jpg",
       price: 90,
@@ -39,6 +42,7 @@ const data = {
     {
       id: 4,
       name: "Skinny Pants",
+      slug: "skinng-pants",
       category: "Pants",
       image: "/images/pants1.jpg",
       price: 90,
@@ -51,6 +55,7 @@ const data = {
     {
       id: 5,
       name: "Dressy Pants",
+      slug: "dressy-pants",
       category: "Pants",
       image: "/images/pants2.jpg",
       price: 95,
@@ -63,6 +68,7 @@ const data = {
     {
       id: 6,
       name: "Classic Pants",
+      slug: "classic pants",
       category: "Pants",
       image: "images/pants3.jpg",
       price: 75,

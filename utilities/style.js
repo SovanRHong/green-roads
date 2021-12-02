@@ -12,10 +12,11 @@ const useStyle = makeStyles({
   grow: {
     flexGrow: 1,
   },
+  section: { marginTop: 10, marginBottom: 10 },
   main: {
     minHeight: "80vh",
   },
-  footer: { textAlign: "right" },
+  footer: { textAlign: "right", marginTop: 10 },
 });
 
 export default useStyle;
